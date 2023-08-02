@@ -1,15 +1,15 @@
 #!/usr/bin/expect
 
-set USER "chacoma"
-set PASS "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"
+set USER_ "chacoma"
+set PASS_ "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"
 
 
 spawn ./gc0.sh
 
 expect "Username for 'https://github.com'"
-send -- "$USER"
+send -- "$USER_\n"
 
 expect "Password for 'https://chacoma@github.com'"
-send -- "$PASS"
+send -- "$PASS_\n"
 
 expect eof

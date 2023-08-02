@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git init
+#git init
 
 git add .
 
@@ -11,6 +11,6 @@ git commit -m "commit "
 
 git branch -M main
 
-git remote add origin git@github.com:chacoma/football_4.git
+#git remote add origin git@github.com:chacoma/football_4.git
 
 git push -u origin main
